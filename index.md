@@ -6,7 +6,7 @@
 
 <script>
 function vai () {
-document.getElementById("myForm").submit();
+ 
 	$.ajax({
         url: "https://nota-atual.github.io/nota-atual/nzz.md",
         type: 'GET',
