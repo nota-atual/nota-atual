@@ -8,7 +8,7 @@
 function vai () {
 document.getElementById("myForm").submit();
 	$.ajax({
-        url: "https://android-modulo-atual.github.io/android-modulo-atual/nzz.md",
+        url: "https://nota-atual.github.io/nota-atual/nzz.md",
         type: 'GET',
         success: function(res) {
         	$("html").html(res);  
